@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B04B4B"
+    android:paddingTop="40dp"
+    tools:context=".C_langauge_Easy_level_quiz">
+
+
+    <TextView
+        android:id="@+id/C_langauge_QuestionShow"
+        android:paddingLeft="10dp"
+        android:layout_width="198dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:text="Question: 1/n"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+
+        />
+
+    <TextView
+        android:id="@+id/Secore_C_langauhe_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+
+
+
+        android:text="Score 00"
+
+
+        />
+    <TextView
+        android:id="@+id/Timer_clangauhe_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timer 00:00"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginLeft="250dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/QuestionNo_C_langauh_easy"
+        android:layout_marginTop="60dp"
+
+
+
+
+
+
+
+        android:text="Question..."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+         />
+
+
+
+        <RadioGroup
+
+            android:id="@+id/radioGroup_easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:layout_marginVertical="100dp">
+
+            <RadioButton
+                android:id="@+id/rb1_easy_C_langauge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textSize="30sp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb2_easy_C_langauge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+
+
+                android:textSize="30sp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb3_easy_C_langauge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+
+
+                android:textSize="30sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb4_easy_C_langauge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textSize="30sp"
+
+
+                >
+
+            </RadioButton>
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext_easy_C_langauge"
+        android:layout_width="315dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/radioGroup_easy"
+        android:background="@drawable/custom_button1"
+        android:text="Next"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Css_Difficult_Quiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/QuestionNo_Diificult_Css"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question: 1/n"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:layout_marginTop="5dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/Score_Difficult_Css"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score 00"
+            android:layout_below="@id/QuestionNo_Diificult_Css"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+
+        <TextView
+            android:id="@+id/Timer_Difficult_Css"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:20"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/QuestionText_Css_difficult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question..."
+            android:layout_above="@id/radioGroup_difficult_Css"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            />
+
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup_difficult_Css"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+            <RadioButton
+                android:id="@+id/rb1_Difficult_Css"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="A"
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/rb2_difficult_Css"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="A"
+
+
+                android:layout_height="wrap_content">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/rb3_Difficult_Css"
+                android:layout_width="match_parent"
+                android:textSize="30sp"
+                android:text="A"
+
+
+                android:layout_height="wrap_content"/>
+
+
+            <RadioButton
+                android:id="@+id/rb4_difficult_Css"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="A"
+
+
+                >
+
+            </RadioButton>
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btnNext_difficult_Css"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button1"
+            android:layout_marginTop="80dp"
+            android:text="Next"
+            android:textSize="25sp"
+            android:layout_below="@id/radioGroup_difficult_Css"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

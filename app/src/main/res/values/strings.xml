@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">LQ_APP_1</string>
+    <string name="sign_up" translatable="false">SignUp</string>
+    <string name="full_name" translatable="false">FullName</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="re_type_password" translatable="false">Re-Type-Password</string>
+    <string name="Alreday_have_an_account_login">Already_Have_an_Account</string>
+
+
+    <string name="des1">In this report I will be presenting an android application developed in Android studio using the programing language Java\n
+        <!--     In this report I will be presenting an android application developed in Android studio using the programming language Java.\n-->
+        \nThe application itself is an app which enables users of it to complete quizzes based on different topics that they can choose between.\n
+
+\n In terms of goal and purpose of the application, it is meant to be a mean for educational purpose but also for general purpose such as enjoyment and etc.\n
+
+
+\n So it’s not simulating an exam that is taken in university (involving grades and etc), but rather for enjoyment and learning purposes so on.
+
+
+        <!-- In terms of goal and purpose of the application, it is meant to be a mean for educational purpose but also for general purpose such as enjoyment and etc.-->
+
+        <!-- So it’s not simulating an exam that is taken in university (involving grades and etc), but rather for enjoyment and learning purposes-->
+
+
+    </string>
+    <string name="title_activity_csharp_easy_quiz">Csharp_Easy_Quiz</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

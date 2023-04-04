@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#804fc4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:id="@+id/textView_Gride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Select Your Topic"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textSize="30sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView_Gride"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:paddingBottom="40dp"
+            >
+
+            <Button
+
+                android:id="@+id/java_Btn"
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Java"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+
+                >
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/Cplus_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="C++"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+
+
+                >
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/clang_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="C"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+                >
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/js_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="JS"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+                ></Button>
+
+
+            <Button
+                android:id="@+id/Csharp_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="C#"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+
+                >
+
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/Androiod_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Android "     android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+
+                >
+
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/mysql_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="mysql"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+                >
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/Mongodb_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Mongo DB"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+                >
+
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/html_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Html"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+                >
+
+            </Button>
+            <Button
+                android:id="@+id/Css_Btn"
+
+                android:layout_width="300dp"
+                android:layout_height="90dp"
+                android:text="Css"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button1"
+
+                >
+
+            </Button>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

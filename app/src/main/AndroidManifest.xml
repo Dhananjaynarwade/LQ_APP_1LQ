@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lq_app_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LQ_APP_1"
+        tools:targetApi="31">
+        <activity
+            android:name=".MY_Sql_Easy_Quiz1"
+            android:exported="false" />
+        <activity
+            android:name=".Csharp_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Csharp_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Csharp_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Css_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Css_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Css_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Html_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Html_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Html_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mongo_DB_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mongo_DB_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Mongo_DB_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".MySql_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".My_Sql_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Difficult_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Js_Difficult_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Js_Hard_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Js_Easy_Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".C_langauge_Difficult_level_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".C_langauge_Hard_level_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".C_langauge_Easy_level_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".Cplus_Quiz_difficult_question"
+            android:exported="false" />
+        <activity
+            android:name=".Cplus_Quiz_hard_question"
+            android:exported="false" />
+        <activity
+            android:name=".Cplus_Quiz_easy_question"
+            android:exported="false" />
+        <activity
+            android:name=".Java_Hard_Question"
+            android:exported="false" />
+        <activity
+            android:name=".Java_Difficult_Question"
+            android:exported="false" />
+        <activity
+            android:name=".Java_Easy_Question"
+            android:exported="false" />
+        <activity
+            android:name=".Open"
+            android:exported="false" />
+        <activity
+            android:name=".Share_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".Developer_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_Policy_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".FeedBack_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".Rate_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".Home_drawar"
+            android:exported="false" />
+        <activity
+            android:name=".ToolBar"
+            android:exported="false" />
+        <activity
+            android:name=".All_Topic"
+            android:exported="false" />
+        <activity
+            android:name=".Css_Quiz_Level"
+            android:exported="false" />
+        <activity
+            android:name=".Html_Quiz_Level"
+            android:exported="false" />
+        <activity
+            android:name=".Mongo_DB_Quiz_Level"
+            android:exported="false" />
+        <activity
+            android:name=".My_Sql_Quiz_Leve"
+            android:exported="false" />
+        <activity
+            android:name=".Android_Quiz_Level"
+            android:exported="false" />
+        <activity
+            android:name=".C_Sharp_Quiz_Level"
+            android:exported="false" />
+        <activity
+            android:name=".java_Script_Quiz_Leve"
+            android:exported="false" />
+        <activity
+            android:name=".C_Langauge_Quiz_Leve"
+            android:exported="false" />
+        <activity
+            android:name=".C_Plus_Quiz_Leve"
+            android:exported="false" />
+        <activity
+            android:name=".Java_Quiz_Leve"
+            android:exported="false" />
+        <activity
+            android:name=".Levels"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".MainWindow"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Start_Window_Play_Start"
+            android:exported="false" />
+        <activity
+            android:name=".FP_Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
